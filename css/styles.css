@@ -2,7 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: rgb(34, 1, 1);
+    margin: 0;
+    padding: 0;
 }
 body h1{
     text-align: center;
+}
+
+.Section{
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
